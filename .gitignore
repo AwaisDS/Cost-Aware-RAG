@@ -1,0 +1,68 @@
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+C extensions
+
+*.so
+
+Virtual Environments (Local venvs)
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+Database Files
+
+*.db
+*.sqlite
+*.sqlite3
+
+Vector DB / Local Stores
+
+.qdrant/
+*.lance/
+
+Data Directories (Preserve directory structure via .gitkeep)
+
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+Unit test / coverage reporting
+
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+IDE & Editor Files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS Generated Files
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
